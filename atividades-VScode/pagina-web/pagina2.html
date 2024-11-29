@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belezas naturais da Argentina</title>
+    <link rel="stylesheet" href="estilizacaoPaginas.css">
+</head>
+<body>
+ 
+
+  <header class="imagem-pag2">
+    <h2>Belezas Naturais</h2>
+  </header>
+
+  
+      <table>
+        <h4>Parque Nacional Nahuel Huapi</h4>
+        <div class="gallery">
+          <button onclick="toggleText('nahuelText', this)">Ocultar Texto</button>
+        <p class="texto2"  id="nahuelText">
+          O Parque e Reserva Nacional Nahuel Huapi, o mais antigo parque nacional da Argentina,
+          está localizado na Patagônia, compartilhado pelas províncias de Neuquén e Río Negro. 
+          Com uma área de 712.160 hectares, abriga uma diversidade impressionante de paisagens,
+          incluindo florestas úmidas, lagos cristalinos e montanhas imponentes, além de uma rica fauna e flora.
+          As cidades de San Carlos de Bariloche e Villa La Angostura, situadas nas margens do lago Nahuel Huapi,
+          são os principais centros turísticos.
+        </p>
+
+        
+        
+        <img src="/images/parque-nahuel.jpg" class="gallery-item" alt="Parque Nacional Nahuel Huapi" height="350px" width="550px" style="border-radius: 7px; float: right;">
+      </div>
+
+
+      </table>
+         
+       <table>
+        <h4>Tierra del Fuego</h4>
+        <div class="gallery">
+          <button onclick="toggleText('tierraText', this)">Ocultar Texto</button>
+        <p class="texto2" id="tierraText">
+          
+          A Tierra del Fuego é um arquipélago no extremo sul da América do Sul, 
+          dividido entre Argentina e Chile, com uma área de 73.653 km². Conhecida 
+          por sua paisagem deslumbrante e intocada, a região oferece montanhas majestosas, 
+          florestas densas e uma costa impressionante. O Parque Nacional Tierra del Fuego, 
+          localizado na Argentina, é um dos principais destinos turísticos, com trilhas de trekking,
+           praias isoladas e uma rica biodiversidade. Além disso, cidades como Ushuaia, a mais austral do mundo,
+            e o Museu do Fim do Mundo,
+           enriquecem o local com história e cultura únicas.
+        </p>
+        <img src="/images/imagem-TerraDelFuego.jpeg" class="gallery-item" alt="Tierra Del Fuego" height="350px" width="550px" style="border-radius: 7px; float: right;">
+      </div>
+       </table>   
+       
+       <table>
+        <h4>Iguazú</h4>
+        <div class="gallery">
+          <button onclick="toggleText('iguazuText', this)">Ocultar Texto</button>
+        <p class="texto2" id="iguazuText">
+          
+          O Parque Nacional Iguazú, localizado na província de Misiones, Argentina,
+           é um destino impressionante devido às Cataratas do Iguaçu, uma das maiores quedas
+            d'água do mundo. Com mais de 270 quedas que se estendem por quase 3 quilômetros, 
+            o espetáculo das águas e o som avassalador criam uma atmosfera mágica para os visitantes.
+             Além das cataratas, o parque abriga uma rica biodiversidade, com mais de 2.000 espécies de plantas
+              e animais, como jaguares, onças-pintadas e tucanos. Trilhas bem conservadas permitem explorar o local,
+           e passeios de barco oferecem a chance de sentir a força das cataratas de perto.
+        </p>
+        <img src="/images/Iguazu-imagem.jpeg" class="gallery-item" alt="Iguazú" height="350px" width="550px" style="border-radius: 7px; float: right;">
+      </div>
+       </table>  
+       <footer style="background-color: #feca3d;height: 100px; width: 1330px; border-radius: 7px ; text-align: center; ">
+        
+    <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage">
+      <div id="caption"></div>
+  </div>
+       
+        <p>Links</p>
+ 
+         <br>
+         <a href="/pagina-web/pagina1.html">pagina principal</a>
+         <br>
+         <a href="/pagina-web/pagina3.html">dicas de turismo</a>
+     </footer>
+ <script src="/pagina-web/pagina2.js"></script>
+</body>
+</html>

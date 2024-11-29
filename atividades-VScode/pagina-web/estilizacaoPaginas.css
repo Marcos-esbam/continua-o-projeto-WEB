@@ -1,0 +1,152 @@
+body{
+    background-color: #f7a838;
+}
+.titulo{
+    font-family: arial;
+    text-align: center;
+    color: aliceblue;
+}
+.texto {
+    padding: 5px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    size: 6;
+}
+.texto2{
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    size: 4;
+    text-align: justify;
+    width: 750px;
+}
+.imagem-principal{
+    border-radius: 7px;
+    width: 1320px;
+    height: 400px;
+    margin: 5px;
+}
+table{
+    width: 1050px;
+    height: 100px;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+div{
+    width: 800px;
+    height: 150px;
+    text-align: justify;
+}
+p, img {
+    display: inline-block;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #f7a838;
+    transition: 0.2s ;
+    text-decoration: underline;
+}
+.imagem-pag3{
+    background-image: url('/images/turismo-Argentina.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 300px; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.imagem-pag2{
+    background-image: url('/images/img-pag2.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    height: 300px; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/* Galeria */
+.gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.gallery-item {
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+}
+
+.modal-content {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#caption {
+    margin: 20px auto;
+    text-align: center;
+    color: #ccc;
+    font-size: 18px;
+}
+label {
+    font-size: 10px; /* Aumenta o tamanho do texto */
+    color: #333; /* Define a cor do texto */
+    margin-bottom: 10px; /* Espaçamento abaixo */
+    display: block; /* Faz o label ocupar toda a linha */
+  }
+  
+  input {
+    width: 400px; /* Define a largura do campo */
+    height: 30px; /* Define a altura do campo */
+    font-size: 15px; /* Aumenta o tamanho do texto dentro do input */
+    padding: 5px; /* Espaçamento interno */
+    border: 2px solid #ccc; /* Adiciona uma borda */
+    border-radius: 5px; /* Deixa as bordas arredondadas */
+  }
+  
